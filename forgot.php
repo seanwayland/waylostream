@@ -36,6 +36,8 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
 
         You have requested password reset!
 
+        any problems please email sean wayland at gmail dot com 
+
         Please click this link to reset your password:
 
         http://waylostreams.com/login-system/reset.php?email='.$email.'&hash='.$hash;

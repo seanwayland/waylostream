@@ -52,9 +52,11 @@ else { // Email doesn't already exist in a database, proceed...
 
         Thank you for signing up!
 
+        Any problems please email sean wayland at gmail dot com 
+
         Please click this link to activate your account:
 
-        http://waylostreams.com/login-system/verify.php?email='.$email.'&hash='.$hash;
+        http://waylostreams.live/login-system/verify.php?email='.$email.'&hash='.$hash;
 
         mail( $to, $subject, $message_body, $headers );
 
