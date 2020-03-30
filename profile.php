@@ -24,7 +24,7 @@ if ($_SESSION['logged_in'] != 1) {
 ?>
 <!DOCTYPE html>
 <html>
-<!--HTML page formatting -->
+<!--HTML page formatting 
 <style>
     .navbar {
         position: fixed;
@@ -92,6 +92,10 @@ background: #D3D3D3D3;
 
 </style>
 
+-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <body>
+
 <head>
 
 
@@ -102,7 +106,7 @@ background: #D3D3D3D3;
 <body>
 
 
-<img src="waylostreams.jpg" alt="WAYLOSTREAMS">
+<img src="waylostreams.jpg" style="width:500px"alt="WAYLOSTREAMS">
 
 
 <p>
@@ -153,7 +157,7 @@ BUY 10,000 CREDITS for US $10 with PAYPAL
 <br/>
 
 
-<a href="https://www.waylostreams.com/login-system/freecredits.php">click here to get 10 free credits for new users</a>
+<a href="https://www.waylostreams.live/login-system/freecredits.php" >click here to get 10 free credits for new users</a>
 <br/>
 
 
@@ -188,11 +192,11 @@ $purchase_cost = $song['purchase_cost'];
 <!-- creates forms for user entry -->
 
 
-<div class="form">
+<div class="form m-5 bg-info text-white col-lg-5" >
     <a>
         <form action="searchResult.php" method="post">
             <div class="field-wrap">
-                <p>Search Artists: <input type="text" name="name"/>
+                <p>Search Artists: <br/><input type="text" name="name"/>
 
                     <input type="submit"/></p>
             </div>
@@ -200,18 +204,18 @@ $purchase_cost = $song['purchase_cost'];
 
 
         <form action="searchResultAlbums.php" method="post">
-            <p>Search Albums: <input type="text" name="name"/>
+            <p>Search Albums: <br/><input type="text" name="name"/>
 
                 <input type="submit"/></p>
         </form>
 
         <form action="searchResultSongs.php" method="post">
-            <p>Search Songs: <input type="text" name="name"/>
+            <p>Search Songs: <br/><input type="text" name="name"/>
                 <input type="submit"/></p>
         </form>
 
         <form action="searchAlbumCredits.php" method="post">
-            <p>Search Album Credits: <input type="text" name="name"/>
+            <p>Search Album Credits: <br/><input type="text" name="name"/>
 
                 <input type="submit"/></p>
         </form>
@@ -223,28 +227,26 @@ $purchase_cost = $song['purchase_cost'];
 <br/>
 
 
-<a href="https://www.waylostreams.com/login-system/artistArea.php">artists area / upload music </a>
+<a href="https://www.waylostreams.live/login-system/artistArea.php">artists area / upload music </a>
 <br/>
 
 
 </body>
 
 
-<div class="navbar">
 
-    <br/>
-    WWW.WAYLOSTREAMS.COM
-    <br/>
+
+
 
     <a href="logout.php">
         <button class="button button-block" name="logout"/>
         Log Out</button></a>
 
     <br/>
-    <a href="https://www.waylostreams.com/login-system/profile.php">Go back to profile page </a>
+    <a href="https://www.waylostreams.live/login-system/profile.php">Go back to profile page </a>
     <br/>
 
 
-</div>
+
 
 </html>
