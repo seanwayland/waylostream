@@ -17,7 +17,8 @@ $email = $mysqli->real_escape_string($email);
 /* Database connection settings */
 $host = 'localhost';
 $user = 'seanwayland';
-$pass = 'Goberheim1$';
+/* pass hidden */
+$pass = ##########
 $db = 'sean';
 $dbport = 3306;
 $mysqli = new mysqli($host,$user,$pass,$db,$dbport) or die($mysqli->error);
