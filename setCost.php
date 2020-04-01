@@ -4,7 +4,8 @@
 
 $host = 'localhost';
 $user = 'seanwayland';
-$pass = 'Goberheim1$';
+/* pass hidden */
+$pass = ########
 $db = 'sean';
 $dbport = 3306;
 
