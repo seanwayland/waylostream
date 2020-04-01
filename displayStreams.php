@@ -10,7 +10,8 @@ session_start();
 $email = $_SESSION['email'];
 $host = 'localhost';
 $user = 'seanwayland';
-$pass = 'Goberheim1$';
+/* pass hidden */
+$pass = #########
 $db = 'sean';
 $dbport = 3306;
 $conn = new mysqli($host,$user,$pass,$db,$dbport) or die($mysqli->error);
